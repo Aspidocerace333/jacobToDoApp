@@ -1,0 +1,132 @@
+.sec1
+{
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	height: 75vh;
+	background-color: rgb(253, 244, 194);
+	background-size: cover;
+	box-shadow: 10px 5px 10px rgba(128, 126, 126, 0.76) ;
+	/* position: relative;
+		margin-top: -20px; */
+	/********
+		background: url(../image/7.png);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+	********/
+}
+
+
+.style-div
+{
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	/*background-color: cadetblue;*/
+}
+
+.style-input2
+{
+	height: calc(1.5em + 0.75rem + 2px);
+	border: none;
+	box-shadow: 0 0 0 0 ;
+	background-color: rgb(253, 244, 194);
+}
+
+.style-input2:focus
+{
+	
+	/*border-color: #f4ad94;
+	box-shadow: 0 0 0 0.2rem rgba(29, 226, 7, 0.424);*/
+	border-style: none;
+	box-shadow: 0 0 0 0 ;
+	background-color: rgb(253, 244, 194);
+}
+
+.input-ajout, .input-ajout2
+{
+	width: 70%;
+}
+
+.ajout, .ajout2
+{
+	width: 25%;
+}
+
+.ajout2, .input-ajout2
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/****************/
+.sect1-content
+{
+	position: absolute;
+	width: 73%;
+	height: 180px;
+	margin: 15%;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);
+	
+}
+/****************/
+
+.content
+{
+	padding: 100px;
+}
+
+.content h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	/*color: #f70;*/
+	color: gold;
+	text-align: center;
+}
+
+.separation
+{
+	width: 10%;
+	height: 3px;
+	border: none;
+	box-shadow: none;
+	background-color: gold;
+}
+
+.content h2
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	color: gold;
+}
+
+.content p
+{
+	margin: 20px 0 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+.content p:first-of-type::first-letter
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+.style-btn
+{
+	background-color: goldenrod;
+}
