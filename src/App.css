@@ -157,14 +157,7 @@ nav ul li a:hover
 	background-color: rgb(253, 244, 194);
 	background-size: cover;
 	box-shadow: 10px 5px 10px rgba(128, 126, 126, 0.76) ;
-	/* position: relative;
-	height: 75vh;
-		margin-top: -20px; */
-	/********
-		background: url(../image/7.png);
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-	********/
+	overflow: auto;
 }
 
 .style-btn
